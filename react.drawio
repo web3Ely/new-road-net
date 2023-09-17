@@ -1,0 +1,114 @@
+<mxfile host="65bd71144e">
+    <diagram id="k1yiFRGL5xsYk5cQevov" name="Page-1">
+        <mxGraphModel dx="2029" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="React" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="450" y="100" width="186" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Create React App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fontStyle=1;aspect=fixed;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry y="190" width="227.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Official Create React App" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="70" width="310" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="It is supported by everything" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="5" vertex="1">
+                    <mxGeometry y="26" width="310" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="It is old, use webpack, so it is slow and large" style="text;strokeColor=#C73500;fillColor=#fa6800;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#FFFFFF;spacing=7;whiteSpace=wrap;" parent="5" vertex="1">
+                    <mxGeometry y="70" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Vite Build" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="290" width="310" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Vite is a modern build tool, fast and small" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="9" vertex="1">
+                    <mxGeometry y="26" width="310" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="need manual set up for many things like ESLint" style="text;strokeColor=#C73500;fillColor=#fa6800;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#FFFFFF;spacing=7;whiteSpace=wrap;" parent="9" vertex="1">
+                    <mxGeometry y="70" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="12" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-40" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="12" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="12" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="12" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Bundler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fontStyle=1;aspect=fixed;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry y="590" width="227.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Why Pre Build" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="487" width="310" height="276" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Because we are integrating our app with many different tech, like typescript, react, and CSS tooling. " style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="13" vertex="1">
+                    <mxGeometry y="26" width="310" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Combine: To make all of them work together without any name collision or other problem, we need to build project using build tool" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="13" vertex="1">
+                    <mxGeometry y="100" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Code spiliting: After combining all of them for you app, the app might get very big, so we need to slice it and stregitically serve them to client little by little" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="13" vertex="1">
+                    <mxGeometry y="190" width="310" height="86" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Bundler Config" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="840" width="310" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="We can config how bundler handle our app" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="20" vertex="1">
+                    <mxGeometry y="26" width="310" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Loader" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="960" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Load non-js file to app, like load CSS to DOM" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="23" vertex="1">
+                    <mxGeometry y="26" width="310" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Plugin" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="1080" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Analize how big each dependency " style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="25" vertex="1">
+                    <mxGeometry y="26" width="310" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Dev Server" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="1200" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="It might come with a Dev server that re bundle and compile your app" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="27" vertex="1">
+                    <mxGeometry y="26" width="310" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="VIte" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;strokeColor=#23445d;fontSize=17;swimlaneLine=1;verticalAlign=middle;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-870" y="487" width="310" height="324" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="It use ES6 import export module to bundle js so everything will be fast. " style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="33" vertex="1">
+                    <mxGeometry y="26" width="310" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="It use Rollup to bundle app resources" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="33" vertex="1">
+                    <mxGeometry y="100" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="It does not bundle everything then serve the bundled js to client. It uses module to import everything based on client action" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" parent="33" vertex="1">
+                    <mxGeometry y="150" width="310" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Html change is reload" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" vertex="1" parent="33">
+                    <mxGeometry y="224" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Html change is reload" style="text;strokeColor=#23445d;fillColor=#FFFF33;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontSize=15;fontColor=#000000;spacing=7;whiteSpace=wrap;" vertex="1" parent="33">
+                    <mxGeometry y="274" width="310" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
