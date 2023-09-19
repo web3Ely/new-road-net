@@ -1,42 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    justify-content: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#bento {
+    margin: 10px;
+    max-width: 1200px;
+    min-width: 180px;
+    display: grid;
+    gap: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bento-item {
+    border: 2px solid white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* .bento-square {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
 }
 
-.card {
-  padding: 2em;
+.bento-rect {
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
 }
 
-.read-the-docs {
-  color: #888;
+.bento-mid {
+    grid-column: auto / span 3;
+    grid-row: auto / span 2;
+}
+
+.bento-large {
+    grid-column: auto / span 2;
+    grid-row: auto / span 3;
+} */
+
+@media screen {
+    #bento {
+        grid-auto-rows: 70px;
+        grid-auto-columns: 70px;
+    }
+    .bento-grid {
+        grid-template-areas:
+            "b b i i"
+            "a a d d"
+            "a a f f"
+            "g g f f"
+            "g g f f"
+            "e e e c"
+            "e e e h";
+    }
+}
+
+@media screen and (min-width: 690px) {
+    #bento {
+        grid-auto-rows: 160px;
+        grid-auto-columns: 160px;
+    }
+    .bento-grid {
+        grid-template-areas:
+            "b b i i"
+            "a a d d"
+            "a a f f"
+            "g g f f"
+            "g g f f"
+            "e e e c"
+            "e e e h";
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .bento-grid {
+        grid-template-areas:
+            "b b c a a"
+            "e e e a a"
+            "e e e d d"
+            "h i i f f "
+            "_ g g f f"
+            "_ g g f f";
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bento-grid {
+        grid-template-areas:
+            "a a b b c d d"
+            "a a e e e f f"
+            "g g e e e f f"
+            "g g h i i f f";
+    }
+}
+
+.bento-item:nth-child(1) {
+    /* <Phrase /> */
+    grid-area: b;
+}
+.bento-item:nth-child(2) {
+    /* <AboutUs /> */
+    grid-area: a;
+}
+.bento-item:nth-child(3) {
+    /* <Figure /> */
+    grid-area: c;
+}
+.bento-item:nth-child(4) {
+    /* <Login /> */
+    grid-area: d;
+}
+.bento-item:nth-child(5) {
+    /* <Growth /> */
+    grid-area: e;
+}
+.bento-item:nth-child(6) {
+    /* <Records /> */
+    grid-area: g;
+}
+.bento-item:nth-child(7) {
+    /* <QR /> */
+    grid-area: h;
+}
+.bento-item:nth-child(8) {
+    /* <Social /> */
+    grid-area: i;
+}
+.bento-item:nth-child(9) {
+    /* <AllAIs /> */
+    grid-area: f;
 }
