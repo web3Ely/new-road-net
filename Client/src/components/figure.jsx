@@ -1,3 +1,3 @@
-export default function figure() {
-    return <div className="bento-item">Figure</div>;
+export default function figure({ cssClass }) {
+    return <div className={cssClass}>Figure</div>;
 }

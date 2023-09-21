@@ -13,64 +13,51 @@ body {
     justify-content: center;
 }
 
+:root {
+    --grid-width: 70px;
+    --grid-height: 70px;
+    --grid-gap: 5px;
+    --item-ratio-width: 1;
+    --item-ratio-height: 1;
+}
 #bento {
     margin: 10px;
     max-width: 1200px;
     min-width: 180px;
     display: grid;
-    gap: 10px;
+    grid-gap: var(--grid-gap);
+    grid-template-areas:
+        "b b i i"
+        "a a f f"
+        "a a f f"
+        "g g f f"
+        "g g f f"
+        "e e e c"
+        "e e e h";
+    grid-auto-columns: var(--grid-width);
+    grid-auto-rows: var(--grid-height);
 }
 
 .bento-item {
     border: 2px solid white;
+    border-radius: 0.5rem;
+    transition: 200ms;
 }
 
-/* .bento-square {
-    grid-column: auto / span 2;
-    grid-row: auto / span 2;
-}
-
-.bento-rect {
-    grid-column: auto / span 2;
-    grid-row: auto / span 1;
-}
-
-.bento-mid {
-    grid-column: auto / span 3;
-    grid-row: auto / span 2;
-}
-
-.bento-large {
-    grid-column: auto / span 2;
-    grid-row: auto / span 3;
-} */
-
-@media screen {
-    #bento {
-        grid-auto-rows: 70px;
-        grid-auto-columns: 70px;
-    }
-    .bento-grid {
-        grid-template-areas:
-            "b b i i"
-            "a a d d"
-            "a a f f"
-            "g g f f"
-            "g g f f"
-            "e e e c"
-            "e e e h";
-    }
+.bento-item:hover {
+    scale: var(--item-ratio-width) var(--item-ratio-height);
 }
 
 @media screen and (min-width: 690px) {
-    #bento {
-        grid-auto-rows: 160px;
-        grid-auto-columns: 160px;
+    :root {
+        --grid-width: 160px;
+        --grid-height: 160px;
+        --grid-gap: 10px;
     }
-    .bento-grid {
+    #bento {
         grid-template-areas:
             "b b i i"
-            "a a d d"
+            "a a f f"
             "a a f f"
             "g g f f"
             "g g f f"
@@ -80,11 +67,11 @@ body {
 }
 
 @media screen and (min-width: 860px) {
-    .bento-grid {
+    #bento {
         grid-template-areas:
             "b b c a a"
             "e e e a a"
-            "e e e d d"
+            "e e e f f"
             "h i i f f "
             "_ g g f f"
             "_ g g f f";
@@ -92,48 +79,84 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-    .bento-grid {
+    #bento {
         grid-template-areas:
-            "a a b b c d d"
+            "a a b b c f f"
             "a a e e e f f"
             "g g e e e f f"
             "g g h i i f f";
     }
 }
-
 .bento-item:nth-child(1) {
     /* <Phrase /> */
+    --item-ratio-width: 1.03;
+    --item-ratio-height: 1.06;
     grid-area: b;
 }
 .bento-item:nth-child(2) {
     /* <AboutUs /> */
+    --item-ratio-width: 1.03;
+    --item-ratio-height: 1.03;
     grid-area: a;
 }
 .bento-item:nth-child(3) {
     /* <Figure /> */
+    --item-ratio-width: 1.06;
+    --item-ratio-height: 1.06;
     grid-area: c;
 }
-.bento-item:nth-child(4) {
-    /* <Login /> */
-    grid-area: d;
+
+#inner-bento {
+    /* inner-bento layout */
+    transition: 200ms;
+    grid-area: f;
+    display: grid;
+    grid-gap: var(--grid-gap);
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--grid-height) calc(3 * var(--grid-height) + 2 * var(--grid-gap));
 }
+#inner-bento > .bento-item:nth-child(1) {
+    /* <Login /> */
+    --item-ratio-width: 1.03;
+    --item-ratio-height: 1.03;
+    grid-column: 1;
+    grid-row: 1;
+}
+#inner-bento > .bento-item:nth-child(2) {
+    /* <AllAIs /> */
+    --item-ratio-width: 1.03;
+    --item-ratio-height: 1.02;
+    grid-column: 1;
+    grid-row: 2;
+}
+#inner-bento:has(.bento-item:nth-child(1):hover) {
+    grid-template-rows: calc(2 * var(--grid-height) + var(--grid-gap)) calc(
+            2 * var(--grid-height) + var(--grid-gap)
+        );
+}
+
 .bento-item:nth-child(5) {
+    background-color: aqua;
     /* <Growth /> */
+    --item-ratio-width: 1.02;
+    --item-ratio-height: 1.03;
     grid-area: e;
 }
 .bento-item:nth-child(6) {
     /* <Records /> */
+    --item-ratio-width: 1.02;
+    --item-ratio-height: 1.03;
     grid-area: g;
 }
 .bento-item:nth-child(7) {
     /* <QR /> */
+    --item-ratio-width: 1.06;
+    --item-ratio-height: 1.06;
     grid-area: h;
 }
 .bento-item:nth-child(8) {
     /* <Social /> */
+    --item-ratio-width: 1.03;
+    --item-ratio-height: 1.06;
     grid-area: i;
-}
-.bento-item:nth-child(9) {
-    /* <AllAIs /> */
-    grid-area: f;
 }

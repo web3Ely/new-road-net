@@ -1,3 +1,3 @@
-export default function socials() {
-    return <div className="bento-rect bento-item">Our Social Media</div>;
+export default function socials({ cssClass }) {
+    return <div className={cssClass}>Our Social Media</div>;
 }

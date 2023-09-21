@@ -1,3 +1,3 @@
-export default function qrCode() {
-    return <div className="bento-item">QR Code</div>;
+export default function qrCode({ cssClass }) {
+    return <div className={cssClass}>QR Code</div>;
 }

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .custom-class:has(div:nth-child(1):hover) {
+        @apply grid-rows-size-40-g1-change;
+    }
+}

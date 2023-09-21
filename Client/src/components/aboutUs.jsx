@@ -1,3 +1,10 @@
-export default function aboutUs() {
-    return <div className="bento-square bento-item">About Us</div>;
+export default function aboutUs({ cssClass }) {
+    return (
+        <div className={cssClass}>
+            <div className="mx-auto">
+                We are a company that focus on advancing the AI technology while provide stream of
+                income to everybody
+            </div>
+        </div>
+    );
 }
