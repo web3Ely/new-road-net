@@ -1,3 +1,3 @@
-export default function growth({ cssClass }) {
+export default function Growth({ cssClass }) {
     return <div className={cssClass}>Grouth Rate</div>;
 }

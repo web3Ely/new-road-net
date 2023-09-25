@@ -1,4 +1,4 @@
-export default function aboutUs({ cssClass }) {
+export default function AboutUs({ cssClass }) {
     return (
         <div className={cssClass}>
             <div className="mx-auto">

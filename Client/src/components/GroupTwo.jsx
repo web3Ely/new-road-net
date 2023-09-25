@@ -1,3 +1,3 @@
-export default function groupTwo({ cssClass }) {
+export default function GroupTwo({ cssClass }) {
     return <div className={cssClass}>Group Two</div>;
 }

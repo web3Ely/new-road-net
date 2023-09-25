@@ -7,3 +7,12 @@
         @apply grid-rows-size-40-g1-change;
     }
 }
+
+@layer components {
+    .multi-pad {
+        @apply p-3 md:p-5;
+    }
+    .multi-gap {
+        @apply gap-1 md:gap-3;
+    }
+}

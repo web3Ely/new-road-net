@@ -13,9 +13,10 @@ export default {
                 "size-40-lg": "repeat(6,160px)",
                 "size-40-md": "repeat(7,160px)",
                 "size-40-g1": "160px 3fr",
-                "size-40-g1-change": "320px 2fr",
+                "size-40-g1-change": "332px 1fr",
                 "size-20": "repeat(7,80px)",
                 "size-20-g1": "80px 3fr",
+                "size-20-g1-change": "164px 1fr",
             },
             gridTemplateColumns: {
                 "size-40-xl": "repeat(7,160px)",

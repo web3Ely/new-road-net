@@ -1,3 +1,3 @@
-export default function figure({ cssClass }) {
+export default function Figure({ cssClass }) {
     return <div className={cssClass}>Figure</div>;
 }
