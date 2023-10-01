@@ -2,11 +2,12 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        screens: {
-            md: "730px",
-            lg: "900px",
-            xl: "1240px",
-        },
+        // screens: {
+        //     sm: "640px",
+        //     md: "720px",
+        //     lg: "900px",
+        //     xl: "1240px",
+        // },
         extend: {
             gridTemplateRows: {
                 "size-40-xl": "repeat(4,160px)",
